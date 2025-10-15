@@ -1,4 +1,4 @@
-import { RedisAPIClient } from 'ioredis-fastify-sdk';
+import { RedisAPIClient } from 'sdk-ioredis-fastify';
 
 /**
  * Interface para uma única mensagem na conversação.
