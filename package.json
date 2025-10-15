@@ -17,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ioredis-fastify-sdk": "file:../path/to/your/sdk"
+    "sdk-ioredis-fastify": "github:suissa/sdk-ioredis-fastify"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
