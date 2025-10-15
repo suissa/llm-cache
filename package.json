@@ -1,0 +1,25 @@
+{
+  "name": "llm-cache",
+  "version": "1.0.0",
+  "description": "Uma camada de cache para conversas de LLM usando ioredis-fastify-sdk.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/example.js"
+  },
+  "keywords": [
+    "llm",
+    "cache",
+    "redis",
+    "sdk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis-fastify-sdk": "file:../path/to/your/sdk"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+} 
