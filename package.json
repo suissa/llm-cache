@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/example.js"
+    "start": "node dist/example.js",
+    "test": "vitest"
   },
   "keywords": [
     "llm",
@@ -20,6 +21,8 @@
     "ioredis-fastify-sdk": "file:../path/to/your/sdk"
   },
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "@vitest/ui": "^3.2.4",
+    "typescript": "^5.2.2",
+    "vitest": "^3.2.4"
   }
-} 
+}
