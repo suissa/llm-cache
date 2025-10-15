@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/example.js"
+    "start": "node dist/example.js",
+    "preinstall": "node preinstall.js"
   },
   "keywords": [
     "llm",
@@ -17,9 +18,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ioredis-fastify-sdk": "file:../path/to/your/sdk"
+    "sdk-ioredis-fastify": "github:suissa/sdk-ioredis-fastify"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
   }
-} 
+}
